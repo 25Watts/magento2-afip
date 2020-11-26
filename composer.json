@@ -1,0 +1,31 @@
+{
+    "name": "watts25/magento2-afip",
+    "description": "Magento 2 Electronic Billing to AFIP",
+    "require": {
+      "afipsdk/afip.php": "^0.6.1"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+      {
+        "name": "25Watts",
+        "email": "dev@25watts.com.ar",
+        "homepage": "https://www.25watts.com.ar",
+        "role": "Technical Support"
+      }
+    ],
+    "keywords": [
+      "magento 2",
+      "afip"
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Watts25\\Afip\\": ""
+      }
+    }
+  }
+  

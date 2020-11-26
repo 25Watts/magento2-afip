@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2019 GoFriz.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Backend\Block\Widget\Button\Toolbar">
+        <plugin name="addInvoiceAfipButton" type="Watts25\Afip\Plugin\Adminhtml\AddInvoiceAfipButton" />
+    </type>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <plugin name="sales_invoice_additional_columns" type="Watts25\Afip\Plugin\Adminhtml\SalesInvoiceAfipColumn" sortOrder="7" disabled="false" />
+    </type>
+</config>
