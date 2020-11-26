@@ -1,4 +1,4 @@
-# Magento 2 Watts25 Factura Electrónica
+# Magento 2 Watts25 Afip
 
 This Extension is used to manage electronic billing between Magento 2 and AFIP in Argentina
 
@@ -12,7 +12,7 @@ This Extension is used to manage electronic billing between Magento 2 and AFIP i
 
 ## Introduction installation:
 
-### Install Magento 2 Watts25 Factura Electrónica
+### Install Magento 2 Watts25 Afip
 - Create a folder [root]/app/code/Watts25/Afip
 - Copy to folder
 
